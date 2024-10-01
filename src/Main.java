@@ -1,12 +1,18 @@
+import aluno.media;
+
 import java.util.Locale;
+import java.util.Scanner;
 
 public class Main {
 
     public static void main(String[] args) {
-        System.out.println("Hello world!");
 
-        double altura= 30.256;
-        Locale.setDefault(Locale.US);
-        System.out.printf("%.2f%n", altura);
+      media m1= new media();
+      m1.media(5, 7);
+
+
+
+
+
     }
 }
